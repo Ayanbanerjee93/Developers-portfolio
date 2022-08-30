@@ -41,4 +41,48 @@ body {
     background-position: right;
 }
 
-.experience-area {}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 70px;
+
+}
+
+.experience-header h1 {
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-left: 7px solid blue;
+    border-radius: 5px;
+
+}
+
+#fullStack {
+    border-left: 7px solid blue;
+    border-radius: 5px;
+}
+
+#babbyDev {
+    border-left: 7px solid tomato;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    padding: 15px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
